@@ -27,7 +27,7 @@ jobs:
       run: echo Hello, world!
     - name: Hello world action step
       id: hello
-      uses: remxk2/actions-test@v2
+      uses: remxk2/actions-test@v3
       with:
         who-to-greet: 'Mona the Octocat'
 
