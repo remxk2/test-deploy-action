@@ -26,5 +26,6 @@ jobs:
       id: hello
       uses: remxk2/actions-test@v1
       with:
+        github-oauth-token: ${{ secrets.GITHUB_OAUTH_TOKEN }}
         who-to-greet: 'Mona the Octocat'
 
